@@ -1,0 +1,10 @@
+[
+    {
+        "repository": "android_device_ainol_gs702a-common",
+        "target_path": "device/ainol/gs702a-common"
+    },
+    {
+        "repository": "android_hardware_actions_wlan_realtek",
+        "target_path": "hardware/actions/wlan/realtek"
+    },
+]

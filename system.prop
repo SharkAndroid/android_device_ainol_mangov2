@@ -1,0 +1,22 @@
+
+#
+# system.prop for mangov2
+#
+ro.config.softopengles=0
+ro.config.used_hw_vsync=0
+ro.sf.lcd_density=160
+ro.sf.hwrotation=270
+ro.sf.hdmi_rotation=0
+ro.sf.default_rotation=1
+ro.camerahal.configorientation=90
+ro.camerahal.prevres0=SVGA,HD
+ro.camerahal.imageres0=SVGA,2M
+ro.camerahal.prevresdft0=SVGA
+ro.camerahal.imageresdft0=2M
+ro.camerahal.fpsdft0=30
+ro.camerahal.prevres1=QVGA,VGA
+ro.camerahal.imageres1=QVGA,VGA
+ro.camerahal.prevresdft1=VGA
+ro.camerahal.imageresdft1=VGA
+ro.camerahal.fpsdft1=30
+ro.hdmi.mode=alwayson
