@@ -1,25 +1,25 @@
 on post-fs
-    # usb
+	# Audio
+    insmod /misc/modules/atc260x_audio.ko
+    insmod /misc/modules/sndrv.ko
+
+	# GPU
+    insmod /misc/modules/galcore.ko
+	
+    # USB
     insmod /misc/modules/dummy_udc.ko
     insmod /misc/modules/g_android.ko
     insmod /misc/modules/acts_hcd.ko
     insmod /misc/modules/monitor.ko
 
-    # audio
-    insmod /misc/modules/atc260x_audio.ko
-    insmod /misc/modules/sndrv.ko
-
-    # vde_drv
+    # Vde_drv
     insmod /misc/modules/vde_drv.ko
 
-    # vce_drv
+    # Vce_drv
     insmod /misc/modules/vce_drv.ko
-
-	# gpu
-    insmod /misc/modules/galcore.ko
     
 on charger    
-    # power
+    # Insmod boot driver
     insmod /misc/modules/atc260x_onoff.ko
     insmod /misc/modules/atc260x_power.ko      
     

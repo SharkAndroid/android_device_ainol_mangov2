@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2012 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
-#      http://www.apache.org/licenses/LICENSE-2.0
+# http://www.apache.org/licenses/LICENSE-2.0
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
@@ -35,5 +35,5 @@ PRODUCT_RELEASE_NAME := Novo 10 Hero II
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="ainol/full_herov2/herov2:4.2.2/JDQ39E/root.20140312.142546:userdebug/release-keys" \
-    PRIVATE_BUILD_DESC="full_herov2-userdebug 4.2.2 JDQ39E root.20140312.142546 release-keys"
+    BUILD_FINGERPRINT="ainol/full_hero2v2/hero2v2:4.2.2/JDQ39/eng.root.20140325.120202:userdebug/release-keys" \
+    PRIVATE_BUILD_DESC="full_hero2v2-userdebug 4.2.2 JDQ39 eng.root.20140325.120202 release-keys"
