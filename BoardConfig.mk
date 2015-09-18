@@ -27,17 +27,18 @@ BOARD_HAVE_BLUETOOTH := false
 DEVICE_RESOLUTION := 1280x800
 
 # Wifi
+BOARD_USES_ACTIONS_WLAN := true
 ADDITIONAL_DEFAULT_PROPERTIES    += wifi.supplicant_scan_interval=120
 ADDITIONAL_DEFAULT_PROPERTIES    += wifi.interface=wlan0
 BOARD_WIFI_VENDOR                := realtek
-BOARD_WLAN_DEVICE                := rtl8192cu
+BOARD_WLAN_DEVICE                := rtl8188eu
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
-CONFIG_DRIVER_WEXT 		 := y
+CONFIG_DRIVER_WEXT 		 		 := y
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_rtl
 BOARD_HOSTAPD_DRIVER        	 := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB   	 := lib_driver_cmd_rtl
-# wifi.c defines
+# Defines
 WIFI_DRIVER_FIRMWARE_PATH        := "/misc/modules"
 WIFI_DRIVER_MODULE_FOLDER_PATH   := "/system/lib/modules/"
 WIFI_DRIVER_MODULE_PATH          := $(WIFI_DRIVER_FIRMWARE_PATH)"/wlan.ko"
