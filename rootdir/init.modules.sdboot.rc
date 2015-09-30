@@ -1,9 +1,9 @@
 on post-fs
-	# Audio
+    # Audio
     insmod /misc/modules/atc260x_audio.ko
     insmod /misc/modules/sndrv.ko
 
-	# GPU
+    # GPU
     insmod /misc/modules/galcore.ko
 	
     # USB

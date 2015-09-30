@@ -68,7 +68,4 @@
   </array>
   <!-- This is the battery capacity in mAh -->
   <item name="battery.capacity">8000</item>
-  <!--
-    Battery capacity is 8000 mAH
-  -->
 </device>

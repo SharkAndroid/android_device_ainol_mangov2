@@ -57,7 +57,7 @@
     <integer-array translatable="false" name="config_tether_upstream_types">
         <item>1</item>
         <item>9</item>
-	<item>13</item>
+        <item>13</item>
     </integer-array>
 
     <!-- Flag indicating whether we should enable the automatic brightness in Settings.
@@ -104,23 +104,9 @@
                cell broadcasting sms, and MMS. -->
     <bool name="config_sms_capable">false</bool>
 
-    <!-- Maximum number of database connections opened and managed by framework layer
-         to handle queries on each database when using Write-Ahead Logging. -->
-    <integer name="db_connection_pool_size">5</integer>
-
-    <!-- Max number of downloads allowed to proceed concurrently -->
-    <integer name="config_MaxConcurrentDownloadsAllowed">8</integer>
-
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->
     <bool name="config_showNavigationBar">true</bool>
-
-    <!-- If supported, are dreams enabled? (by default) -->
-    <bool name="config_dreamsEnabledByDefault">false</bool>
-
-    <!-- Base "touch slop" value used by ViewConfiguration as a
-         movement threshold where scrolling should begin. -->
-    <dimen name="config_viewConfigurationTouchSlop">6dp</dimen>
   
     <!-- Whether WiFi display is supported by this device.
          There are many prerequisites for this feature to work correctly.

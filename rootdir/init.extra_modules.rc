@@ -1,13 +1,13 @@
 on post-fs
-	# Camera
+    # Camera
     insmod /misc/modules/camera_hi253.ko
     insmod /misc/modules/camera_gc0308.ko
     insmod /misc/modules/camera_drv.ko
-	
-	# GSensor
+
+    # GSensor
     insmod /misc/modules/gsensor_mc3210.ko
 	
-	# HDMI
+    # HDMI
     insmod /misc/modules/atv5202_vout.ko
     insmod /misc/modules/gl5202_tvout.ko
     insmod /misc/modules/gl5202_hdmi.ko
