@@ -23,19 +23,11 @@
   <item name="screen.on">286</item>
   <item name="screen.full">318</item>
   <item name="bluetooth.active">57.0</item>
-  <!--
-    Bluetooth stereo audio playback                          14.0 mA
-  -->
   <item name="bluetooth.on">7</item>
-  <!--
-    I measured the following value                            1.4 mA
-    but there is a GPIO fix pending that should
-    bring this down to                                        0.2 mA
-  -->
   <item name="wifi.on">29</item>
-  <item name="wifi.active">126</item>
-  <item name="wifi.scan">216</item>
-  <item name="dsp.audio">87</item>
+  <item name="wifi.active">120</item>
+  <item name="wifi.scan">220</item>
+  <item name="dsp.audio">88</item>
   <item name="dsp.video">245</item>
   <item name="gps.on">29.7</item>
   <item name="radio.active">71.5</item>
