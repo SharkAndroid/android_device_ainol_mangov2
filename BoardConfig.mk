@@ -18,7 +18,7 @@
 LOCAL_PATH := device/ainol/mangov2
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := mangov2,Hero II
+TARGET_OTA_ASSERT_DEVICE := mangov2
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := false
