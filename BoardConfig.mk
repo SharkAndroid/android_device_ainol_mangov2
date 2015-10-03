@@ -18,13 +18,10 @@
 LOCAL_PATH := device/ainol/mangov2
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := mangov2
+TARGET_OTA_ASSERT_DEVICE := mangov2,hero2v2
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := false
-
-# TWRP
-DEVICE_RESOLUTION := 1280x800
 
 # Wifi
 BOARD_USES_ACTIONS_WLAN := true
