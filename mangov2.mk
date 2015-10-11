@@ -27,19 +27,19 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Init files
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/rootdir/init.extra_modules.rc:root/init.extra_modules.rc \
-	$(LOCAL_PATH)/rootdir/init.modules.rc:root/init.modules.rc \
-	$(LOCAL_PATH)/rootdir/init.modules.sdboot.rc:root/init.modules.sdboot.rc
+    $(LOCAL_PATH)/rootdir/init.extra_modules.rc:root/init.extra_modules.rc \
+    $(LOCAL_PATH)/rootdir/init.modules.rc:root/init.modules.rc \
+    $(LOCAL_PATH)/rootdir/init.modules.sdboot.rc:root/init.modules.sdboot.rc
 
 # Wifi
 PRODUCT_PACKAGES += \
-	dhcpcd.conf \
-	init.wifi.rc \
-	lib_driver_cmd_rtl \
-	hostapd \
-	hostapd_cli \
-	wpa_cli \
-	libwpa_client \
-	wpa_supplicant
+    dhcpcd.conf \
+    init.wifi.rc \
+    lib_driver_cmd_rtl \
+    hostapd \
+    hostapd_cli \
+    wpa_cli \
+    libwpa_client \
+    wpa_supplicant
 
 $(call inherit-product-if-exists, vendor/ainol/mangov2/mangov2-vendor.mk)
