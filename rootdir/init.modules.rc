@@ -17,6 +17,8 @@ on post-fs
     insmod /misc/modules/g_android.ko
     insmod /misc/modules/acts_hcd.ko
     insmod /misc/modules/monitor.ko
+    insmod /misc/modules/usb_wwan.ko
+    insmod /misc/modules/option.ko
 
     # Vde_drv
     insmod /misc/modules/vde_drv.ko
