@@ -4,9 +4,6 @@
 ro.config.softopengles=0
 ro.config.used_hw_vsync=0
 ro.sf.lcd_density=160
-ro.sf.hwrotation=270
-ro.sf.hdmi_rotation=0
-ro.sf.default_rotation=1
 ro.camerahal.configorientation=90
 ro.camerahal.prevres0=SVGA,HD
 ro.camerahal.imageres0=SVGA,2M
