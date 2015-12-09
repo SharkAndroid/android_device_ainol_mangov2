@@ -28,10 +28,9 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 # Init files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.extra_modules.rc:root/init.extra_modules.rc \
-    $(LOCAL_PATH)/rootdir/init.modules.rc:root/init.modules.rc \
-    $(LOCAL_PATH)/rootdir/init.modules.sdboot.rc:root/init.modules.sdboot.rc
+    $(LOCAL_PATH)/rootdir/init.modules.rc:root/init.modules.rc
 
-# Wifi
+# Wi-Fi
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
     init.wifi.rc \
