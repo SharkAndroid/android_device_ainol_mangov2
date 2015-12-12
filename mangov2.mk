@@ -21,10 +21,6 @@ $(call inherit-product, device/ainol/gs702a-common/common.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# This device is mdpi.
-PRODUCT_AAPT_CONFIG += normal large mdpi tvdpi hdpi
-PRODUCT_AAPT_PREF_CONFIG := mdpi
-
 # Init files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.extra_modules.rc:root/init.extra_modules.rc \

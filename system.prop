@@ -1,11 +1,13 @@
 #
 # system.prop for mangov2
 #
-ro.config.softopengles=0
+
+# Display rotation
 ro.sf.lcd_density=160
 ro.sf.hwrotation=270
 ro.sf.hdmi_rotation=0
-ro.sf.default_rotation=1
+
+# Camera
 ro.camerahal.configorientation=90
 ro.camerahal.prevres0=SVGA,HD
 ro.camerahal.imageres0=SVGA,2M
@@ -17,4 +19,6 @@ ro.camerahal.imageres1=QVGA,VGA
 ro.camerahal.prevresdft1=VGA
 ro.camerahal.imageresdft1=VGA
 ro.camerahal.fpsdft1=30
+
+# HDMI
 ro.hdmi.onoffmode=alwayson
