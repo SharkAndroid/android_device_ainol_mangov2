@@ -21,4 +21,4 @@ ro.camerahal.imageresdft1=VGA
 ro.camerahal.fpsdft1=30
 
 # HDMI
-ro.hdmi.onoffmode=alwayson
+ro.hdmi.mode=alwayson

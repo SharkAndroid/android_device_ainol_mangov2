@@ -15,8 +15,11 @@
 
 LOCAL_PATH := device/ainol/mangov2
 
-# Include common makefile
 $(call inherit-product, device/ainol/gs702a-common/common.mk)
+
+# Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
