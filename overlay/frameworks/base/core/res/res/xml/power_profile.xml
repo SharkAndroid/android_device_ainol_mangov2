@@ -20,20 +20,21 @@
 <device name="Android">
   <!-- All values are in mA except as noted -->
   <item name="none">0</item>
-  <item name="screen.on">286</item>
+  <item name="screen.on">256</item>
   <item name="screen.full">318</item>
-  <item name="bluetooth.active">57.0</item>
-  <item name="bluetooth.on">7</item>
-  <item name="wifi.on">29</item>
+  <item name="bluetooth.active">14.0</item>
+  <item name="bluetooth.on">0.3</item>
+  <item name="wifi.on">4</item>
   <item name="wifi.active">120</item>
   <item name="wifi.scan">220</item>
   <item name="dsp.audio">88</item>
-  <item name="dsp.video">245</item>
-  <item name="gps.on">29.7</item>
-  <item name="radio.active">71.5</item>
-  <item name="radio.scanning">1.2</item>
+  <item name="dsp.video">88</item>
+  <item name="gps.on">1</item>
+  <item name="radio.active">1</item>
+  <item name="radio.scanning">0.5</item>
   <array name="radio.on"> <!-- Strength 0 to BINS-1 (4) -->
-      <value>1.2</value>
+      <value>0.2</value>
+      <value>0.1</value>
   </array>
   <!-- Different CPU speeds as reported in
     /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state -->
@@ -48,6 +49,7 @@
   </array>
   <!-- Power consumption when CPU is idle -->
   <item name="cpu.idle">125</item>
+  <item name="cpu.awake">450</item>
   <!-- Power consumption at different speeds -->
   <array name="cpu.active">
       <value>450</value>
