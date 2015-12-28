@@ -57,6 +57,7 @@ on init
     symlink /system/etc /etc
 
     mkdir /recovery
+    mkdir /boot
     mkdir /misc
     mkdir /system
     mkdir /data
