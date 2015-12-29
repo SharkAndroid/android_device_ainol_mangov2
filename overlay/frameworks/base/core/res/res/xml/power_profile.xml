@@ -20,7 +20,7 @@
 <device name="Android">
   <!-- All values are in mA except as noted -->
   <item name="none">0</item>
-  <item name="screen.on">256</item>
+  <item name="screen.on">286</item>
   <item name="screen.full">318</item>
   <item name="bluetooth.active">14.0</item>
   <item name="bluetooth.on">0.3</item>
@@ -44,6 +44,7 @@
       <value>576000</value>
       <value>720000</value>
       <value>864000</value>
+      <value>900000</value>
       <value>1008000</value>
       <value>1200000</value>
   </array>
@@ -52,6 +53,7 @@
   <item name="cpu.awake">450</item>
   <!-- Power consumption at different speeds -->
   <array name="cpu.active">
+      <value>450</value>
       <value>450</value>
       <value>450</value>
       <value>500</value>

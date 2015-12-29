@@ -29,7 +29,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.modules.rc:root/init.modules.rc
 
 # Wi-Fi
-PRODUCT_PACKAGES := \
+PRODUCT_PACKAGES += \
     dhcpcd.conf \
     init.wifi.rc \
     lib_driver_cmd_rtl \

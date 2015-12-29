@@ -110,7 +110,7 @@
     <bool name="config_sms_capable">false</bool>
 
     <!-- Maximum number of supported users -->
-    <integer name="config_multiuserMaximumUsers">8</integer>
+    <integer name="config_multiuserMaximumUsers">4</integer>
 
     <!-- Whether a software navigation bar should be shown. NOTE: in the future this may be
          autodetected from the Configuration. -->

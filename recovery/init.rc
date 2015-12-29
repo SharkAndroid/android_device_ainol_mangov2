@@ -93,9 +93,6 @@ on boot
 service ueventd /sbin/ueventd
     critical
 
-service hwclock_update /sbin/busybox_act hwclock -s
-    oneshot
-
 on property:ro.debuggable=1
     start console
 
