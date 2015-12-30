@@ -17,16 +17,15 @@ LOCAL_PATH := device/ainol/mangov2
 
 $(call inherit-product, device/ainol/gs702a-common/common.mk)
 
-# Media
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf
-
-# Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Init files
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.modules.rc:root/init.modules.rc
+
+# Media
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf
 
 # Wi-Fi
 PRODUCT_PACKAGES += \

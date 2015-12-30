@@ -2,10 +2,8 @@
 # system.prop for mangov2
 #
 
-# Display rotation
-ro.sf.lcd_density=160
-ro.sf.hwrotation=270
-ro.sf.hdmi_rotation=0
+# Bluetooth
+ro.support.bluetooth=false
 
 # Camera
 ro.camerahal.configorientation=90
@@ -20,5 +18,16 @@ ro.camerahal.prevresdft1=VGA
 ro.camerahal.imageresdft1=VGA
 ro.camerahal.fpsdft1=30
 
+# Display rotation
+ro.sf.lcd_density=160
+ro.sf.hwrotation=270
+ro.sf.hdmi_rotation=0
+hwui.render_dirty_regions=false
+
 # HDMI
 ro.hdmi.mode=alwayson
+
+# USB
+ro.serialno=4512482adf0feeee
+ro.usb.descriptor=ainol,Novo 10 Hero II,V1.0
+ro.usbdevice.volumelabel=Novo 10 Hero II
