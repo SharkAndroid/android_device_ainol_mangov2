@@ -27,6 +27,10 @@ hwui.render_dirty_regions=false
 # HDMI
 ro.hdmi.mode=alwayson
 
+# RIL
+rild.libpath=/system/lib/libactions-ril.so
+rild.libargs=-u /dev/ttyUSB0 -d /dev/ttyUSB2
+
 # USB
 ro.serialno=4512482adf0feeee
 ro.usb.descriptor=ainol,Novo 10 Hero II,V1.0
